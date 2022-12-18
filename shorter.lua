@@ -1,14 +1,14 @@
 
-    hook = hookfunction
-    none = nil
-    null = nil
-    delete = destroy
-    loadst = loadstring
-    workspace = game:GetService("Workspace")
-    ReplicatedStorage = game:GetService("ReplicatedStorage")
-    err = error
-    IsLoaded = game:IsLoaded()
-    bpairs = ipairs
-    ind = index
-    _J = _G
+    _G.hook = hookfunction
+    _G["none"] = nil
+    _G["null"] = nil
+    _G.delete = destroy
+    _G.loadst = loadstring
+    _G.workspace = game:GetService("Workspace")
+    _G.ReplicatedStorage = game:GetService("ReplicatedStorage")
+    _G.err = error
+    _G.IsLoaded = game:IsLoaded()
+    _G.bpairs = ipairs
+    _G.ind = index
+    _G["_J"] = _G
 
