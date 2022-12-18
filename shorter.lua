@@ -1,4 +1,4 @@
-function v1_2()
+
     hook = hookfunction
     none = nil
     null = nil
@@ -11,4 +11,4 @@ function v1_2()
     bpairs = ipairs
     ind = index
     _J = _G
-end
+
